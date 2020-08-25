@@ -1,0 +1,120 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{todonotes}
+%\usepackage[normalem]{ulem}
+\usepackage{float}
+\usepackage{commath}
+\usepackage{fancybox}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[backend=biber, style=authoryear, citestyle=authoryear, autocite=inline, isbn=true]{biblatex} % package for bibliography 
+%\DeclareLanguageMapping{english}{english-apa}
+
+\theoremstyle{definition}
+\newtheorem{Def}{Definition}[section]
+\newtheorem{Eg}{Example}[section]
+\newtheorem{Rm}{Remark}[section]
+\newtheorem{Ex}{Exercise}[section]
+\newtheorem{Prop}[Def]{Proposition}
+\newtheorem{Lem}[Def]{Lemma}
+\newtheorem{Thm}[Def]{Theorem}
+\newtheorem{Cor}[Def]{Corollary}
+\newtheorem{Rem}[Def]{Remark}
+\newtheorem{Ass}[Def]{Assumption}
+\newtheorem{Met}[Def]{Method}
+\newtheorem{Res}[Def]{Result}
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+
+\addbibresource{sdewind.bib}
+
+%\renewbibmacro*{title}{%
+%  \ifboolexpr{
+%    test {\iffieldundef{title}}
+%    and
+%    test {\iffieldundef{subtitle}}
+%  }
+%    {}
+%    {\printtext{%
+%     \printtext[titlecase]{\usefield{\uline}{title}}%
+%     \setunit{\subtitlepunct}%
+%     \printfield[titlecase]{subtitle}}%
+%     \newunit}%
+%  \printfield{titleaddon}}
+
+\setcounter{page}{1}
+
+\begin{document}
+
+\title{ Infinite Dimensional Lagrangian Relaxation }  % \\  \small{Report}}
+
+%\author[1]{Waled Alhaddad}
+\author[1]{Renzo Caballero}
+%\author[2]{Ahmed Kebaier}
+%\author[3]{Marco Scavino}
+\author[4]{ Ra\'ul  Tempone}
+%\author[2]{Corresponding Author\thanks{email@2nduniversity.com}}
+\affil[1,4]{CEMSE Division, King Abdullah University of Science and Technology (KAUST), Saudi Arabia}
+%\affil[2]{\red{Universit\'e Sorbonne Paris Nord, LAGA, CNRS, UMR 7539, F-93430, Villetaneuse, France}}
+%\affil[3]{Universidad de la Rep\'ublica, Instituto de Estad\'{\i}stica (IESTA), Montevideo, Uruguay}
+\affil[4]{Alexander von Humboldt Professor, RWTH Aachen University, Germany}
+
+%\author{ Waled Alhaddad \textsuperscript{\textasteriskcentered} \qquad Ahmed Kebaier\textsuperscript{\ddag} \qquad Ra\'ul  Tempone\textsuperscript{\textasteriskcentered}\textsuperscript{\textdagger} \\
+%\textsuperscript{\textasteriskcentered}CEMSE Division, King Abdullah University of Science and Technology (KAUST), Saudi Arabia \\ \textsuperscript{\textdagger}Alexander von Humboldt Professor, RWTH Aachen University, Germany
+% \\ \textsuperscript{\ddag}Université Paris 13, Sorbonne Paris Cité, LAGA, CNRS (UMR 7539), Villetaneuse, France}
+
+\maketitle
+%\thispagestyle{empty}
+
+%%%%%%%%% ABSTRACT
+
+\begin{abstract}
+
+
+\end{abstract}
+
+Keywords: Stochastic Optimal Control, Lagrange Relaxation, Numerical Optimization.
+
+2020 AMS Subject Classification: 60H10, 62M20, 65K10.
+
+%%%%%%%%% BODY TEXT
+
+%---BEGIN SECTION 1---
+
+\section{Introduction}  \label{Section_1}
+
+
+%---END SECTION 1---
+
+%---BEGIN SECTION 2---
+
+
+%---END SECTION 2---
+
+
+%---BEGIN APPENDIX---
+
+\section{Appendix} \label{Appendix}
+
+
+%---END APPENDIX---
+
+%---REFERENCES---
+
+\nocite{*}
+ 
+%\printbibliography
+\printbibliography[keyword={Wind-SDE},title={References}]
+
+\end{document}
